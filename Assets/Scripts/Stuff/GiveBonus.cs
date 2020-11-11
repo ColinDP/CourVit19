@@ -16,7 +16,10 @@ namespace Stuff
 
         private void OnCollisionEnter(Collision other)
         {
-            GenerateRandomBonus(other.rigidbody.GetComponent<Player>());
+            if (other.gameObject.CompareTag("player"))
+            {
+                GenerateRandomBonus(other.rigidbody.GetComponent<Player>());
+            }
         }
 
         private void GenerateRandomBonus(Player player)
