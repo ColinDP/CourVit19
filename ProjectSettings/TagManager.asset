@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - point
+  - virusagent
+  - person
+  - checkpoint
+  - gameManager
+  - canvas
+  - icon
+  - bonus
+  - player
   layers:
   - Default
   - TransparentFX
@@ -13,9 +22,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Virus
+  - Player
+  - Item
   - 
   - 
   - 
